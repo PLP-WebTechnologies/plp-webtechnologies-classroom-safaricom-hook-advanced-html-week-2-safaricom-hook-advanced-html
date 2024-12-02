@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multimedia Webpage</title>
+</head>
+<body>
+    <h1>Welcome to My Multimedia Webpage</h1>
+
+    <!-- Audio Element -->
+    <h2>Listen to this Audio</h2>
+    <audio controls>
+        <source src="media\quartz-clock-ticking-one-minute-253102.mp3" type="audio/mpeg">
+        <source src="media\quartz-clock-ticking-one-minute-253102 a.ogg" type="audio/ogg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <!-- Video Element -->
+    <h2>Watch this Video</h2>
+    <video controls width="640" height="360" >
+        <source src="media\video1.mp4" type="video/mp4">
+        <source src="media\video1a.webm" type="video/webm">
+        Your browser does not support the video element.
+    </video>
+</body>
+</html>
